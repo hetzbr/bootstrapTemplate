@@ -1,6 +1,7 @@
 /*Body Styles */
 body {
 font-family: "Rockwell",serif;
+color: #fff;
 }
 
 /*Navbar Styles */
@@ -147,5 +148,12 @@ background-color: #569099;
     padding-bottom:50px
 }
 
+#contact {
+background-color: #6c953c;
+}
 
+#contact .container {
+    padding-top: 100px;
+    padding-bottom:50px;
+}
 
