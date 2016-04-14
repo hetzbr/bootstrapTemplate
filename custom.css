@@ -8,9 +8,18 @@ font-family: "Rockwell",serif;
   background-color: #002663;
   border-color: #405c8a;
 }
+
 .navbar-default .navbar-brand {
   color: #ecf0f1;
 }
+.navbar {
+    text-transform: uppercase;
+    font-family: "arial";
+    font-weight:700;
+    padding: 0.5%;
+
+}
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
   color: #5381ac;
@@ -78,6 +87,11 @@ font-family: "Rockwell",serif;
   color: #5381ac;
 }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #ffffff;
+    background-color: #008CD0;
+}
+
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #ecf0f1;
@@ -94,12 +108,44 @@ font-family: "Rockwell",serif;
   }
 }
 
-.navbar {
-    text-transform: uppercase;
-    font-family: "arial";
-    font-weight:700;
-    padding: 0.5%;
+.brandleft {
+    margin-left:15%;
+}
+
+/*Section Styles */
+section {
+    padding: 100px 0;
+}
+
+section h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+/* about section */
+
+#about {
+background-color:#405c8a;
 
 }
+#about .container {
+    padding-top: 100px;
+    padding-bottom:50px;
+}
+
+#about img {
+    display:block;
+    margin: 0 auto 20px;
+}
+
+/* norms section */
+#norms {
+background-color: #569099;
+}
+#norms .container {
+    padding-top: 100px;
+    padding-bottom:50px
+}
+
 
 
