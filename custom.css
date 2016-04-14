@@ -13,7 +13,7 @@ font-family: "Rockwell",serif;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #ecdbff;
+  color: #5381ac;
 }
 .navbar-default .navbar-text {
   color: #ecf0f1;
@@ -23,7 +23,7 @@ font-family: "Rockwell",serif;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #ecdbff;
+  color:#5381ac;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu {
   background-color: #002663;
@@ -33,7 +33,7 @@ font-family: "Rockwell",serif;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
-  color: #ecdbff;
+  color: #5381ac;
   background-color: #405c8a;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
@@ -42,7 +42,7 @@ font-family: "Rockwell",serif;
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-  color: #ecdbff;
+  color: #5381ac;
   background-color: #405c8a;
 }
 .navbar-default .navbar-nav > .active > a,
@@ -54,7 +54,7 @@ font-family: "Rockwell",serif;
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: #ecdbff;
+  color:#5381ac;
   background-color: #405c8a;
 }
 .navbar-default .navbar-toggle {
@@ -75,7 +75,7 @@ font-family: "Rockwell",serif;
   color: #ecf0f1;
 }
 .navbar-default .navbar-link:hover {
-  color: #ecdbff;
+  color: #5381ac;
 }
 
 @media (max-width: 767px) {
@@ -84,12 +84,12 @@ font-family: "Rockwell",serif;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #ecdbff;
+    color: #5381ac;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ecdbff;
+    color: #5381ac;
     background-color: #405c8a;
   }
 }
@@ -101,3 +101,5 @@ font-family: "Rockwell",serif;
     padding: 0.5%;
 
 }
+
+
