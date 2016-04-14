@@ -24,7 +24,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body id="page-top" class="index">
     
 <!-- Navbar -->
 
@@ -54,10 +54,10 @@
                         <a href="#about">About<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#teamNorms">Norms</a>
+                        <a href="#norms">Norms</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#contactTeam">Contact</a>  
+                        <a href="#contact">Contact</a>  
                     </li>       
                 </ul>
       
@@ -97,65 +97,15 @@
 
 </section>    
     
-<section id="contact">
-<div class="container">
-    <div class="row">   
-    
- <form class="form-horizontal">
-<fieldset>
-
-
-<!-- Multiple Radios -->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="teamMembers">Team Member</label>
-  <div class="col-md-4">
-  <div class="radio">
-    <label for="teamMembers-0">
-      <input type="radio" name="teamMembers" id="teamMembers-0" value="Member1" >
-      Team Member 1
-    </label>
-	</div>
-  <div class="radio">
-    <label for="teamMembers-1">
-      <input type="radio" name="teamMembers" id="teamMembers-1" value="Member2">
-      Team Member 2
-    </label>
-	</div>
-  <div class="radio">
-    <label for="teamMembers-2">
-      <input type="radio" name="teamMembers" id="teamMembers-2" value="Member3">
-      Team Member 3
-    </label>
-	</div>
-  <div class="radio">
-    <label for="teamMembers-3">
-      <input type="radio" name="teamMembers" id="teamMembers-3" value="Member4">
-      Team Member 4
-    </label>
-	</div>
-  <div class="radio">
-    <label for="teamMembers-4">
-      <input type="radio" name="teamMembers" id="teamMembers-4" value="Member5">
-      Team Member 5
-    </label>
-	</div>
-  </div>
-</div>
-
-</fieldset>
-</form>   
-    </div>
-</div>
-    
-    
-<div class="row" id="member1form" style="display:none;">
-                <div class="col-lg-8 col-lg-offset-2">
-                    
-                    <form name="member1form" id="member1form"  action="http://formspree.io/<useremailaddress>" method="post">
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Name</label>
-                                <input type="text" class="form-control" placeholder="Name" name="name" id="name" required data-validation-required-message="Please enter your name.">
+<section id="contact">    
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">                    
+            <form name="member1form" id="member1form"  action="http://formspree.io/<useremailaddress>" method="post">
+                <div class="row control-group">
+                    <div class="form-group col-xs-12 floating-label-form-group controls">
+                        <label>Team Member Name</label>
+                            <input type="text" class="form-control" placeholder="Name" name="name" id="name" required data-validation-required-message="Please enter your name.">
+                        
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -200,20 +150,36 @@
             </div>
         
 </section>    
-    
+   <!-- Footer -->
+    <footer >
+        
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                         &copy; 2016
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visble-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+  <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+
+<!-- Custom Scrolling Theme JavaScript -->
+    <script src="js/scroller.js"></script>
 </body>
     
-<footer>
-<script>
-    
-if (document.getElementById('teamMembers-0').checked) {
-    document.getElementById('member1form').style.display = 'block';
-}  else {
-    document.getElementById('member1form').style.display = 'none';
-}
-    
-</script>   
-    
-</footer>
 </html>
