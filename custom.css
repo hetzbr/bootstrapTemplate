@@ -324,52 +324,52 @@ max-width:100%;
 }
 
 .carousel-indicators li.p {
-    background:url(img/pizza_inactive.png) no-repeat!important;
+    background:url(img/pizza_inactive_nb.png) no-repeat!important;
     transform-style:flat;
 }
 
 .carousel-indicators li.active.p {
-   background:url(img/pizza_active.png) no-repeat!important;
+   background:url(img/pizza_active_nb.png) no-repeat!important;
     transform-style:flat;
 }
 
 .carousel-indicators li.i {
-    background:url(img/pizza_inactive.png) no-repeat!important;
+    background:url(img/pizza_inactive_nb.png) no-repeat!important;
     transform-style:flat;
 }
 
 .carousel-indicators li.active.i {
-    background:url(img/pizza_active.png) no-repeat!important;
+    background:url(img/pizza_active_nb.png) no-repeat!important;
     transform-style:flat;
 }
 
 .carousel-indicators li.z {
-    background:url(img/pizza_inactive.png) no-repeat!important;
+    background:url(img/pizza_inactive_nb.png) no-repeat!important;
     transform-style:flat;
 }
 
 .carousel-indicators li.active.z {
-    background:url(img/pizza_active.png) no-repeat!important;
+    background:url(img/pizza_active_nb.png) no-repeat!important;
     transform-style:flat;
 }
 
 .carousel-indicators li.z {
-    background:url(img/pizza_inactive.png) no-repeat!important;
+    background:url(img/pizza_inactive_nb.png) no-repeat!important;
     transform-style:flat
 }
 
 .carousel-indicators li.active.z {
-    background:url(img/pizza_active.png) no-repeat!important;
+    background:url(img/pizza_active_nb.png) no-repeat!important;
     transform-style:flat;
 }
 
 .carousel-indicators li.a {
-    background:url(img/pizza_inactive.png) no-repeat!important;
+    background:url(img/pizza_inactive_nb.png) no-repeat!important;
     transform-style:flat;
 }
 
 .carousel-indicators li.active.a {
-    background:url(img/pizza_active.png) no-repeat!important;
+    background:url(img/pizza_active_nb.png) no-repeat!important;
     transform-style:flat;
 }
 
