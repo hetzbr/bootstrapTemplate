@@ -381,13 +381,9 @@ width:100%;
 height: auto;
 
 }
+
+/*Spacer*/
 .spacer {
 padding-top:20%;
 
-}
-.thankyou {
-background-color:purple;
-}
-.thankyou-bg {
-background-color: #FCB131;
 }
